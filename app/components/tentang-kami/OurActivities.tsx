@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import temurayaImage from '@/app/assets/images/temuraya.png'
 import unityforcharityImage from '@/app/assets/images/unityforcharity.png'
@@ -32,6 +33,9 @@ const OurActivities = () => {
                         <Image src={minimagangImage} fill alt='minimagang' className='w-full h-ull'/>
                     </section>
                 </section>
+            </section>
+            <section className="flex-center">
+                <Link href="/aktivitas-kami/#kegiatan-kami" className="w-[300px] h-[60px] text-center bg-primary text-white rounded-[12px] p-[10px] text-[22px] leading-[38px]">Lihat Selengkapnya</Link>
             </section>
         </section>
     )

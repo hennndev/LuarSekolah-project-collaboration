@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import prakerjaImage from '@/app/assets/images/prakerja.png'
 import belajarBekerjaImage from '@/app/assets/images/belajarbekerja.png'
@@ -17,8 +18,8 @@ const Program = () => {
                 <section className='flex flex-col justify-between w-[573px] p-[20px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
-                            <section className='relative w-[360px] h-[90px]'>
-                                <Image src={prakerjaImage} fill alt='prakerja' className='w-full h-full'/>
+                            <section className='relative w-[300px] h-[80px]'>
+                                <Image src={prakerjaImage} fill alt='prakerja' className='w-full h-full bg-contain'/>
                             </section>
                         </section>
                         <section>
@@ -34,9 +35,9 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <button className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://luarsekolah.com/prakerja" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
                             Pelajari Lebih Lanjut
-                        </button>
+                        </Link>
                     </section>
                 </section>
 
@@ -61,9 +62,9 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <button className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://belajarbekerja.com" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
                             Pelajari Lebih Lanjut
-                        </button>
+                        </Link>
                     </section>
                 </section>
 
@@ -82,13 +83,11 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <button className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://luarsekolah.com/indonesia-skills-week" target='_blank' className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
                             Pelajari Lebih Lanjut
-                        </button>
+                        </Link>
                     </section>
                 </section>
-
-
             </section>
         </section>
     )

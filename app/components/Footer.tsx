@@ -15,6 +15,16 @@ import googleplayIcon from '@/app/assets/icons/googleplay.svg'
 
 
 const Footer = () => {
+    const phoneNumber = '628112021444'
+    const message = 'Halo, saya tertarik dengan kursus [nama kursus]. Bisa jelaskan lebih detail tentang materi yang akan dipelajari dan apa saja manfaat yang bisa saya dapatkan setelah mengikuti kursus ini?'
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+
+    const email = 'info@luarsekolah.com'
+    const subject = 'Informasi Lebih Lanjut'
+    const body = 'Halo, saya ingin mengetahui lebih lanjut!'
+    const mailUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+
+
     return (
         <footer className='px-[100px] py-[22px] space-y-[100px] pb-[50px]'>
             <section className='space-y-[30px]'>
@@ -30,43 +40,43 @@ const Footer = () => {
                             <section className='space-y-[15px]'>
                                 <p className='text-[20px] font-semibold leading-[30px] tracking-[0.12em]'>Ikuti Kami</p>
                                 <section className='flexx space-x-[32px]'>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    <Link href="https://www.linkedin.com/company/luarsekolah-com" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={linkedinIcon} fill alt='linkedin' className='w-full h-full'/>
-                                    </section>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    </Link>
+                                    <Link href="https://www.facebook.com/@luarsekolahofficial" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={facebookIcon} fill alt='facebook' className='w-full h-full'/>
-                                    </section>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    </Link>
+                                    <Link href="https://www.youtube.com/@luarsekolah" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={youtubeIcon} fill alt='youtube' className='w-full h-full'/>
-                                    </section>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    </Link>
+                                    <Link href="https://www.instagram.com/luarsekolah" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={instagramIcon} fill alt='instagram' className='w-full h-full'/>
-                                    </section>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    </Link>
+                                    <Link href="https://www.tiktok.com/@luarsekolahofficial" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={tiktokIcon} fill alt='tiktok' className='w-full h-full'/>
-                                    </section>
-                                    <section className='relative w-[24px] h-[23px]'>
+                                    </Link>
+                                    <Link href="https://x.com/luarsekolah" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={xIcon} fill alt='x' className='w-full h-full'/>
-                                    </section>
+                                    </Link>
                                 </section>
                             </section>
 
                             <section className='space-y-[15px]'>
                                 <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Hubungi Kami</p>
                                 <section className='space-y-[10px]'>
-                                    <section className='flexx space-x-[20px]'>
-                                        <section className='relative w-[25px] h-[25px]'>
+                                    <Link href={whatsappUrl} target="_blank" className='flexx space-x-[20px]'>
+                                        <div className='relative w-[25px] h-[25px]'>
                                             <Image src={whatsappIcon} fill alt='whatsapp' className='w-full h-full'/>
-                                        </section>
+                                        </div>
                                         <p className='text-[20px] leading-[30px] font-medium tracking-[0.12em]'>0811 2021 444</p>
-                                    </section>
+                                    </Link>
 
-                                    <section className='flexx space-x-[20px]'>
+                                    <Link href={mailUrl} target="_blank" className='flexx space-x-[20px]'>
                                         <section className='relative w-[25px] h-[25px]'>
                                             <Image src={mailIcon} fill alt='mail' className='w-full h-full'/>
                                         </section>
                                         <p className='text-[20px] leading-[30px] font-medium tracking-[0.12em]'>info@luarsekolah.com</p>
-                                    </section>
+                                    </Link>
                                 </section>
                             </section>
 
@@ -106,10 +116,10 @@ const Footer = () => {
                                 <section className='flex flex-col space-y-[5px]'>
                                     <Link href="/tentang-kami" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Tentang Kami</Link>
                                     <Link href="/aktivitas-kami" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Aktivitas Kami</Link>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Blog</p>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Promo</p>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>FAQ</p>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Komunitas</p>
+                                    <Link href="https://luarsekolah.com/article" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Blog</Link>
+                                    <Link href="https://luarsekolah.com/promo" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Promo</Link>
+                                    <Link href="https://luarsekolah.com/bantuan" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>FAQ</Link>
+                                    <Link href="https://luarsekolah.com/komunitas" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Komunitas</Link>
                                 </section>
                             </section>
                             <section className='space-y-[10px]'>
@@ -122,10 +132,10 @@ const Footer = () => {
                             </section>
                             <section className='space-y-[10px]'>
                                 <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Lainnya</p>
-                                <section className='space-y-[5px]'>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Ajukan Penawaran</p>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Syarat & Ketentuan</p>
-                                    <p className='text-[20px] leading-[30px] tracking-[0.12em]'>Kebijakan Privasi</p>
+                                <section className='flex flex-col space-y-[5px]'>
+                                    <Link href="#" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Ajukan Penawaran</Link>
+                                    <Link href="https://luarsekolah.com/pages#terms-of-use" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Syarat & Ketentuan</Link>
+                                    <Link href="https://luarsekolah.com/pages#privacy-policy" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Kebijakan Privasi</Link>
                                 </section>
                             </section>
                         </section>  

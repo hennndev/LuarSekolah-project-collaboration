@@ -61,7 +61,7 @@ const Testimonials = () => {
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "space-between",
-                            rowGap: "35px"
+                            rowGap: "35px",
                         }} key={obj.slide}>
                             {obj.testimonials.map(testimonial => (
                                 <section key={testimonial.id} className='bg-white w-[446px] h-[288px] rounded-[24px] py-[23px] px-[24px] space-y-[24px]'>

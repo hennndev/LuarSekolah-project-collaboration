@@ -1,14 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import luarsekolahTeamImage from '@/app/assets/images/luarsekolah-team.png'
+import allteamImage from '@/app/assets/images/allteam.png'
 
 const AdditionalSection = () => {
     return (
-        <section className='px-[100px] py-[22px] mb-[50px] bg-primary h-[560px]'>
-            <section className='flex-between'>
-                <section className='relative w-[702px] h-[498px]'>
-                    <Image src={luarsekolahTeamImage} fill alt="LSteam" className='w-full h-full'/>
+        <section className='px-[115px] py-[31px] mb-[50px] bg-primary h-[560px]'>
+            <section className='flex-between h-[498px]'>
+                <section className='relative w-[968px] h-[363px]'>
+                    <Image src={allteamImage} fill alt="LSteam" className='w-full h-full'/>
                 </section>
                 <section className='w-[620px] space-y-[30px]'>
                     <section className="space-y-[16px]">

@@ -16,7 +16,7 @@ export const metadata = {
 
 const TentangKami = () => {
     return (
-        <main className='mt-[50px]'>
+        <main className='pt-[120px]'>
             <HeroText/>
             <VisiMisi/>
             <OurValue/>

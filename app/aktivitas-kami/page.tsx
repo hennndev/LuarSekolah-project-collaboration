@@ -9,7 +9,7 @@ export const metadata = {
 
 const AktivitasKami = () => {
     return (
-        <main className='mt-[30px]'>
+        <main className='pt-[120px]'>
             <HeroText/>
             <OurActivities/>
             <Testimonials/>
