@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased w-[1895px]`}
+        className={`${poppins.className} antialiased max-w-[1895px] mx-auto`}
       >
         <Header/>
         {children}
