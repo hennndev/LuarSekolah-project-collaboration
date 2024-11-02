@@ -17,7 +17,7 @@ const UniversityPartner = () => {
     const [animate] = useState(true);
 
     return (
-        <section className='mb-[50px] space-y-[50px]'>
+        <section className='mb-[100px] space-y-[50px]'>
             <h2 className='text-[42px] leading-[63px] font-bold tracking-[0.08em] text-center'>Mitra Perguruan Tinggi</h2>
             <div className="relative overflow-hidden w-full">
                 <AnimatePresence>

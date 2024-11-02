@@ -13,8 +13,6 @@ const OurActivities = () => {
     const swiperRef = useRef<any>(null)
     const scrollRef = useRef<any>(null);
     const [currentSlide, setCurrentSlide] = useState(0)
-    const [isLeftHovered, setIsLeftHovered] = useState<boolean>(false)
-    const [isRightHovered, setIsRightHovered] = useState<boolean>(false)
 
     const handleParentSwipe = (index: number) => {
         setCurrentSlide(index)

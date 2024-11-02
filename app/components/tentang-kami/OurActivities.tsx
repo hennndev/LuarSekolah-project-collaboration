@@ -11,7 +11,7 @@ import minimagangImage from '@/app/assets/images/minimagang.png'
 
 const OurActivities = () => {
     return (
-        <section className='px-[100px] py-[22px] mb-[50px] space-y-[50px]'>
+        <section className='px-[100px] py-[22px] mb-[100px] space-y-[50px]'>
             <h2 className='text-primary text-[42px] leading-[63px] tracking-[0.08em] font-bold text-center'>
                 Kegiatan LuarSekolah
             </h2>

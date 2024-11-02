@@ -51,7 +51,8 @@ export const activities = [
             minimagang1Image, minimagang2Image, minimagang3Image
         ],
         title: "Mini Magang+",
-        content: "Mini magang+ adalah program trial magang+ selama 5 hari yang memberikan gambaran kepada calon peserta. Pada Februari 2024, kegiatan ini diadakan untuk okupasi Content Writer dan Social Media Marketing, diikuti oleh 811 pendaftar secara daring melalui Google Meet. Di akhir program, peserta mengerjakan case study yang dapat dijadikan portofolio."
+        content: "Mini magang+ adalah program trial magang+ selama 5 hari yang memberikan gambaran kepada calon peserta. Pada Februari 2024, kegiatan ini diadakan untuk okupasi Content Writer dan Social Media Marketing, diikuti oleh 811 pendaftar secara daring melalui Google Meet. Di akhir program, peserta mengerjakan case study yang dapat dijadikan portofolio.",
+        date: "08 Februari 2024"
     },
     {
         id: "activity3",

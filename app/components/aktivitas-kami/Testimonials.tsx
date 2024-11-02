@@ -19,8 +19,8 @@ const Testimonials = () => {
     const [isRightHovered, setIsRightHovered] = useState<boolean>(false)
     
     return (
-        <section className='bg-primary mb-[50px] flex-center py-[126px] px-[233px]'>
-            <section className='w-[1429px] space-y-[50px]'>
+        <section className='bg-primary mb-[100px] flex-center py-[126px] px-[233px]'>
+            <section className='w-[1450px] space-y-[50px]'>
                 <section className='flex-between'>
                     <h2 className='text-white text-[48px] font-bold leading-[72px]'>Apa Kata Mereka?</h2>
                     <section className='flexx space-x-[15px]'>
@@ -64,18 +64,18 @@ const Testimonials = () => {
                             rowGap: "35px",
                         }} key={obj.slide}>
                             {obj.testimonials.map(testimonial => (
-                                <section key={testimonial.id} className='bg-white w-[446px] h-[288px] rounded-[24px] py-[23px] px-[24px] space-y-[24px]'>
+                                <section key={testimonial.id} className='bg-white w-[460px] h-[315px] rounded-[24px] py-[23px] px-[24px] space-y-[24px]'>
                                     <section className='flexx space-x-[9px]'>
                                         <div className='relative w-[65px] h-[65px]'>
                                             <Image src={testimonial.image} fill alt="testprofile1" className='w-full h-full'/>
                                         </div>
                                         <section>
-                                            <h6 className='text-[14px] font-bold leading-[22px] text-[#171A1F]'>{testimonial.name}</h6>
-                                            <p className='text-[12px] leading-[18px] text-[#888888]'>{testimonial.origin}</p>
-                                            <p className='text-[12px] leading-[18px] text-[#888888]'>{testimonial.class}</p>
+                                            <h6 className='text-[16px] font-bold leading-[22px] text-[#171A1F]'>{testimonial.name}</h6>
+                                            <p className='text-[14px] leading-[18px] text-[#888888]'>{testimonial.origin}</p>
+                                            <p className='text-[14px] leading-[18px] text-[#888888]'>{testimonial.class}</p>
                                         </section>
                                     </section>
-                                    <p className='text-[14px] leading-[22px] text-[#171A1F]'>
+                                    <p className='text-[16px] leading-[22px] text-[#171A1F]'>
                                         {testimonial.testimonial}
                                     </p>
                                 </section>

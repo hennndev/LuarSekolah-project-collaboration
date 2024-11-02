@@ -5,7 +5,7 @@ import allteamImage from '@/app/assets/images/allteam.png'
 
 const AdditionalSection = () => {
     return (
-        <section className='px-[115px] py-[31px] mb-[50px] bg-primary h-[560px]'>
+        <section className='px-[115px] py-[31px] mb-[100px] bg-primary h-[560px]'>
             <section className='flex-between h-[498px]'>
                 <section className='relative w-[968px] h-[363px]'>
                     <Image src={allteamImage} fill alt="LSteam" className='w-full h-full'/>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const VisiMisi = () => {
     return (
-        <section className='w-full flex-center bg-visimisi-image bg-cover bg-center h-[660px] mb-[50px]'>
+        <section className='w-full flex-center bg-visimisi-image bg-cover bg-center h-[660px] mb-[100px]'>
             <section className='w-[1370px] h-[507px] space-y-[18px]'>
                 <h2 className='text-[42px] font-bold leading-[60px] text-white text-center'>Visi & Misi</h2>
                 <section className='flex space-x-[50px]'>

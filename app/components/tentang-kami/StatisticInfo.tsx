@@ -8,7 +8,7 @@ import trainers from '@/app/assets/icons/trainers.png'
 
 const StatisticInfo = () => {
     return (
-        <section className='px-[100px] h-[647px] py-[75px] bg-primary mb-[50px] space-y-[110px]'>
+        <section className='px-[100px] h-[647px] py-[75px] bg-primary mb-[100px] space-y-[110px]'>
             <h2 className='text-white text-[42px] leading-[60px] font-bold text-center'>
                 Komunitas Kami Terus Bertumbuh
             </h2>

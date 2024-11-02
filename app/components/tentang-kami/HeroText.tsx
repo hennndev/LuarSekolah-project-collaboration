@@ -5,7 +5,7 @@ import heroImage from '@/app/assets/images/hero-image.png'
 
 const HeroText = () => {
     return (
-        <section className='px-[100px] py-[22px] mb-[50px]'>
+        <section className='px-[100px] py-[22px] mb-[100px]'>
             <section className='flex space-x-[70px]'>
                 <section className='max-w-[811px] space-y-[30px]'>
                     <h1 className='text-[48px] text-primary font-bold tracking-[0.12em] leading-[72px]'>Selayang Pandang</h1>

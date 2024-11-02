@@ -7,7 +7,7 @@ import brainImage from '@/app/assets/icons/brain.png'
 
 const OurValue = () => {
     return (
-        <section className='px-[100px] py-[22px] mb-[50px] space-y-[50px]'>
+        <section className='px-[100px] py-[22px] mb-[100px] space-y-[50px]'>
             <h2 className='text-primary text-[42px] leading-[63px] tracking-[0.08em] font-bold text-center'>Value LuarSekolah</h2>
             <section className='flex-center space-x-[60px]'>
                 <section className='w-[538px] flexx flex-col space-y-[60px]'>

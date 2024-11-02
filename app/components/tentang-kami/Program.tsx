@@ -8,7 +8,7 @@ import skillsWeekImage from '@/app/assets/images/skillsweek.png'
 
 const Program = () => {
     return (
-        <section className='py-[22px] mb-[50px] space-y-[100px]'>
+        <section className='py-[22px] mb-[100px] space-y-[100px]'>
             <h2 className='text-primary text-[42px] leading-[63px] tracking-[0.08em] font-bold text-center'>
                 Pilihan Program Yang Bisa Kamu Ikuti!
             </h2>
