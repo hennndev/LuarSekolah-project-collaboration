@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import igFollowers from '@/app/assets/icons/ig-followers.png'
 import users from '@/app/assets/icons/users.png'
 import allClass from '@/app/assets/icons/class.png'
 import trainers from '@/app/assets/icons/trainers.png'
+import igFollowers from '@/app/assets/icons/ig-followers.png'
 
 const StatisticInfo = () => {
     return (
@@ -22,7 +22,6 @@ const StatisticInfo = () => {
                         <p className='text-white text-[24px] leading-[36px] font-normal italic'>Total Users</p>
                     </section>
                 </section>
-
                 <section className='flexx flex-col space-y-[31px]'>
                     <section className='relative w-[200px] h-[200px]'>
                         <Image src={trainers} fill alt="ig-followers" className='w-full h-full'/>

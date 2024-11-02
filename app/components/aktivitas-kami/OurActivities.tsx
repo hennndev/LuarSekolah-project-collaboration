@@ -45,8 +45,7 @@ const OurActivities = () => {
         <section id="kegiatan-kami" className='px-[116px] py-[63px] mb-[50px] mt-[100px] space-y-[50px]'>
             <h2 className='text-[40px] leading-[60px] tracking-[0.001em] text-primary text-center font-medium'>Kegiatan Luarsekolah</h2>
             <section className='flex-between space-x-[50px]'>
-                <button className='cursor-pointer rounded-full'
-                    onClick={handleSlidePrevBtn}>
+                <button className='cursor-pointer rounded-full' onClick={handleSlidePrevBtn}>
                     <IoIosArrowDropleftCircle className={clsx("text-primary w-[70px] h-[70px]", currentSlide === 0 ? "opacity-30 cursor-not-allowed" : "opacity-100")}/>
                 </button>
                 <section ref={scrollRef} className='w-[1368px] overflow-x-scroll scrollbar-hide flexx space-x-[50px]'>
@@ -111,7 +110,6 @@ const OurActivities = () => {
                 ))}
 
             </Swiper>
-
         </section>
     )
 }

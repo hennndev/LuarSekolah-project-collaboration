@@ -17,8 +17,7 @@ type PropsTypes = {
 const SwiperImages = ({images}: PropsTypes) => {
     const swiperImageRef = useRef<any>(null)
     const [currentSlideImage, setCurrentSlideImage] = useState(0)
-
-
+    
     return (
         <Swiper
             direction='horizontal'

@@ -3,10 +3,10 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import temurayaImage from '@/app/assets/images/temuraya.png'
-import unityforcharityImage from '@/app/assets/images/unityforcharity.png'
-import cendekialscImage from '@/app/assets/images/cendekialsc.png'
-import webinarprakerjaImage from '@/app/assets/images/webinarprakerja.png'
 import minimagangImage from '@/app/assets/images/minimagang.png'
+import cendekialscImage from '@/app/assets/images/cendekialsc.png'
+import unityforcharityImage from '@/app/assets/images/unityforcharity.png'
+import webinarprakerjaImage from '@/app/assets/images/webinarprakerja.png'
 
 
 const OurActivities = () => {

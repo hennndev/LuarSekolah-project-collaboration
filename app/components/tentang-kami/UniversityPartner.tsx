@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
-
 const UniversityPartner = () => {
     const images = [
         '/images/YPA.png', 

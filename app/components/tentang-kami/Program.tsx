@@ -3,8 +3,8 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import prakerjaImage from '@/app/assets/images/prakerja.png'
-import belajarBekerjaImage from '@/app/assets/images/belajarbekerja.png'
 import skillsWeekImage from '@/app/assets/images/skillsweek.png'
+import belajarBekerjaImage from '@/app/assets/images/belajarbekerja.png'
 
 const Program = () => {
     return (
@@ -13,8 +13,6 @@ const Program = () => {
                 Pilihan Program Yang Bisa Kamu Ikuti!
             </h2>
             <section className='flex justify-center space-x-[50px]'>
-
-
                 <section className='flex flex-col justify-between w-[573px] p-[20px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">

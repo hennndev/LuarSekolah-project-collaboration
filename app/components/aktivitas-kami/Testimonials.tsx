@@ -67,7 +67,7 @@ const Testimonials = () => {
                                 <section key={testimonial.id} className='bg-white w-[460px] h-[315px] rounded-[24px] py-[23px] px-[24px] space-y-[24px]'>
                                     <section className='flexx space-x-[9px]'>
                                         <div className='relative w-[65px] h-[65px]'>
-                                            <Image src={testimonial.image} fill alt="testprofile1" className='w-full h-full'/>
+                                            <Image src={testimonial.image} fill alt={testimonial.name} className='w-full h-full'/>
                                         </div>
                                         <section>
                                             <h6 className='text-[16px] font-bold leading-[22px] text-[#171A1F]'>{testimonial.name}</h6>
