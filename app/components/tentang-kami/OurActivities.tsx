@@ -12,7 +12,7 @@ import webinarprakerjaImage from '@/app/assets/images/webinarprakerja.png'
 const OurActivities = () => {
     return (
         <section className='px-[100px] py-[22px] mb-[100px] space-y-[50px]'>
-            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.06em] font-bold text-center'>
+            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.04em] font-bold text-center'>
                 Kegiatan LuarSekolah
             </h2>
             <section className='flex space-x-[22px]'>

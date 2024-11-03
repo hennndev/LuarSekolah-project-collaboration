@@ -17,7 +17,7 @@ const UniversityPartner = () => {
 
     return (
         <section className='mb-[100px] space-y-[50px]'>
-            <h2 className='text-[40px] leading-[63px] font-bold tracking-[0.06em] text-center'>Mitra Perguruan Tinggi</h2>
+            <h2 className='text-[40px] leading-[63px] font-bold tracking-[0.04em] text-center'>Mitra Perguruan Tinggi</h2>
             <div className="relative overflow-hidden w-full">
                 <AnimatePresence>
                     <motion.div

@@ -9,11 +9,11 @@ import belajarBekerjaImage from '@/app/assets/images/belajarbekerja.png'
 const Program = () => {
     return (
         <section className='py-[22px] mb-[100px] space-y-[100px]'>
-            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.08em] font-bold text-center'>
+            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.04em] font-bold text-center'>
                 Pilihan Program Yang Bisa Kamu Ikuti!
             </h2>
             <section className='flex justify-center space-x-[50px]'>
-                <section className='flex flex-col justify-between w-[573px] p-[20px] rounded-[24px] shadow-card space-y-[68px]'>
+                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[300px] h-[80px]'>
@@ -28,7 +28,7 @@ const Program = () => {
                                 <li>Pencari kerja yang sudah bekerja / buruh yang ingin mendapatkan peningkatan skill atau kompetensi.</li>
                                 <li>Pekerja / buruh yang terkena pemutusan hubungan kerja.</li>
                                 <li>Pelaku usaha mikro dan kecil.</li>
-                                <li>Pelatihan mulai dari Digital Marketing, Penggunaan Chat GPT, Membuat Pestisida, Membuat Desain produk sampai melatih berpikir kritis.</li>
+                                <li>Pelatihan mulai dari <Link href='https://luarsekolah.com/kelas/online/belajar-menerapkan-digital-marketing-untuk-manajer-pemasaran' target='_blank' className='underline'>Digital Marketing</Link>, Penggunaan Chat GPT, Membuat Pestisida, Membuat Desain produk sampai melatih berpikir kritis.</li>
                             </ul>
                         </section>
                     </section>
@@ -38,9 +38,7 @@ const Program = () => {
                         </Link>
                     </section>
                 </section>
-
-
-                <section className='flex flex-col justify-between w-[573px] p-[20px] rounded-[24px] shadow-card space-y-[68px]'>
+                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[265px] h-[90px]'>
@@ -55,7 +53,7 @@ const Program = () => {
                                 <li>Peserta dapat mengerjakan kasus nyata yang terjadi di dunia industri.</li>
                                 <li>Memanfaatkan pemahaman digital transformasi serta teknologi Kecerdasan Buatan (AI).</li>
                                 <li>Didampingi oleh praktisi berpengalaman.</li>
-                                <li>Terdapat pilihan kelas populer seperti: Digital Marketing, Social Media Marketing, Content Writer, Graphic Designer, Web Developer dan UI/UX Designer.</li>
+                                <li>Terdapat pilihan kelas populer seperti: <Link href='https://magang.luarsekolah.com/detail/digital_marketing' target='_blank' className='underline'>Digital Marketing</Link>, Social Media Marketing, Content Writer, Graphic Designer, Web Developer dan UI/UX Designer.</li>
                             </ul>
                         </section>
                     </section>
@@ -65,9 +63,7 @@ const Program = () => {
                         </Link>
                     </section>
                 </section>
-
-
-                <section className='flex flex-col justify-between w-[573px] p-[20px] rounded-[24px] shadow-card space-y-[68px]'>
+                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[168px] h-[91px]'>

@@ -17,8 +17,8 @@ const Team = () => {
     return (
         <section className='px-[100px] py-[22px] mb-[100px] space-y-[50px]'>
             <section className='space-y-[10px]'>
-                <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.06em] font-bold text-center'>Team LuarSekolah</h2>
-                <p className='text-[24px] leading-[48px] tracking-[0.06em] text-center'>Kami adalah sekelompok individu yang memiliki passion yang sama, yaitu memajukan pendidikan di Indonesia melalui teknologi dan kolaborasi.</p>
+                <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.04em] font-bold text-center'>Team LuarSekolah</h2>
+                <p className='max-w-[1000px] mx-auto text-[20px] leading-[42px] tracking-[0.04em] text-center'>Kami adalah sekelompok individu yang memiliki passion yang sama, yaitu memajukan pendidikan di Indonesia melalui teknologi dan kolaborasi.</p>
             </section>
             <section className='space-y-[15px]'>
                 <section className='flex-center space-x-[15px]'>

@@ -102,9 +102,13 @@ const OurActivities = () => {
                         }}>
                         <SwiperImages images={obj.images}/>
                         <section className='w-[480px] space-y-[20px]'>
-                            <h3 className='text-[32px] leading-[48px] font-medium tracking-[0.06em]'>{obj.title}</h3>
-                            <p className='text-[20px] leading-[38px] font-medium tracking-[0.06em]'>{obj.date}</p>
-                            <p className='text-[18px] leading-[38px] tracking-[0.06em] text-justify'>{obj.content}</p>
+                            <section className='space-y-[5px]'>
+                                <h3 className='text-[30px] leading-[48px] font-medium tracking-[0.04em]'>{obj.title}</h3>
+                                <p className='text-[17px] opacity-60 leading-[38px] font-medium tracking-[0.04em]'>
+                                    {obj.date}
+                                </p>
+                            </section>
+                            <p className='text-[18px] leading-[38px] tracking-[0.04em] text-justify'>{obj.content}</p>
                         </section>
                     </SwiperSlide>
                 ))}

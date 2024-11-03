@@ -23,16 +23,16 @@ const Header = () => {
                         <p className='text-[20px] leading-[30px] tracking-[0.08em] group-hover:text-primary'>Program</p>
                         {isDropdown ? <FaSortUp className='text-xl group-hover:text-primary mt-2'/> : <FaSortDown className='text-xl group-hover:text-primary mb-1'/>}
                         {isDropdown && (
-                            <section className='absolute top-16 -left-2 shadow-dropdown w-[326px] px-[32px] py-[30px] rounded-b-lg bg-white flex flex-col space-y-[25px]'>
-                                <a href="https://luarsekolah.com/prakerja" target='_blank' className='text-[20px] pb-[25px] leading-[30px] tracking-[0.06em] border-b-2 border-secondary-gray hover:text-primary'>Prakerja</a>
-                                <a href="https://belajarbekerja.com" target='_blank' className='text-[20px] pb-[25px] leading-[30px] tracking-[0.06em] border-b-2 border-secondary-gray hover:text-primary'>Magang Bekerja</a>
+                            <section className='absolute top-[69px] -left-2 shadow-dropdown w-[326px] px-[32px] py-[30px] rounded-b-lg bg-white flex flex-col space-y-[25px]'>
+                                <a href="https://luarsekolah.com/prakerja" target='_blank' className='text-[20px] pb-[25px] leading-[30px] tracking-[0.04em] border-b-2 border-secondary-gray hover:text-primary'>Prakerja</a>
+                                <a href="https://belajarbekerja.com" target='_blank' className='text-[20px] pb-[25px] leading-[30px] tracking-[0.04em] border-b-2 border-secondary-gray hover:text-primary'>Magang Bekerja</a>
                                 <a href="https://luarsekolah.com/indonesia-skills-week" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Indonesia Skills Week</a>
                             </section>
                         )}
                     </section>
                 </section>
                 <section className='flexx w-[750px] h-[65px] py-[17px] px-[25px] rounded-[12px] border border-secondary-gray shadow-sm'>
-                    <input type="text" placeholder='Cari kelas yang ingin kamu pelajari' className='flex-1 text-[20px] leading-[30px] tracking-[0.06em] border-none outline-none placeholder:text-secondary-gray mr-2'/>
+                    <input type="text" placeholder='Cari kelas yang ingin kamu pelajari' className='flex-1 text-[20px] leading-[30px] tracking-[0.04em] border-none outline-none placeholder:text-secondary-gray mr-2'/>
                     <div className='relative w-[20px] h-[20px] cursor-pointer'>
                         <Image src={searchIcon} fill alt="logo" className='w-full h-full object-contain'/>
                     </div>
