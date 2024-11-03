@@ -9,7 +9,7 @@ import belajarBekerjaImage from '@/app/assets/images/belajarbekerja.png'
 const Program = () => {
     return (
         <section className='py-[22px] mb-[100px] space-y-[100px]'>
-            <h2 className='text-primary text-[42px] leading-[63px] tracking-[0.08em] font-bold text-center'>
+            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.08em] font-bold text-center'>
                 Pilihan Program Yang Bisa Kamu Ikuti!
             </h2>
             <section className='flex justify-center space-x-[50px]'>
@@ -33,7 +33,7 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <Link href="https://luarsekolah.com/prakerja" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://luarsekolah.com/prakerja" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-[#FFC700] outline-none text-[22px] leading-[38px] !mb-4 hover:bg-opacity-75'>
                             Pelajari Lebih Lanjut
                         </Link>
                     </section>
@@ -60,7 +60,7 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <Link href="https://belajarbekerja.com" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://belajarbekerja.com" target="_blank" className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-[#FFC700] outline-none text-[22px] leading-[38px] !mb-4 hover:bg-opacity-75'>
                             Pelajari Lebih Lanjut
                         </Link>
                     </section>
@@ -81,7 +81,7 @@ const Program = () => {
                         </section>
                     </section>
                     <section className="flex-center">
-                        <Link href="https://luarsekolah.com/indonesia-skills-week" target='_blank' className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-secondary outline-none text-[22px] leading-[38px]'>
+                        <Link href="https://luarsekolah.com/indonesia-skills-week" target='_blank' className='w-[300px] text-center p-[10px] rounded-[12px] text-white bg-[#FFC700] outline-none text-[22px] leading-[38px] !mb-4 hover:bg-opacity-75'>
                             Pelajari Lebih Lanjut
                         </Link>
                     </section>

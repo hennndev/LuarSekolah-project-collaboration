@@ -33,12 +33,12 @@ const Footer = () => {
                 </section>
                 <section className='flex-between space-x-[100px]'>
                     <section className='w-[657px] space-y-[30px]'>
-                        <p className='text-[20px] leading-[38px] tracking-[0.12em] text-justify w-full'>
+                        <p className='text-[20px] leading-[38px] tracking-[0.06em] text-left w-full'>
                             Luarsekolah merupakan wadah belajar dan mengajar pelajaran non-formal/alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dan offline
                         </p>
                         <section className='space-y-[35px]'>
                             <section className='space-y-[15px]'>
-                                <p className='text-[20px] font-semibold leading-[30px] tracking-[0.12em]'>Ikuti Kami</p>
+                                <p className='text-[20px] font-semibold leading-[30px] tracking-[0.06em]'>Ikuti Kami</p>
                                 <section className='flexx space-x-[32px]'>
                                     <Link href="https://www.linkedin.com/company/luarsekolah-com" target="_blank" className='relative w-[24px] h-[23px]'>
                                         <Image src={linkedinIcon} fill alt='linkedin' className='w-full h-full'/>
@@ -62,26 +62,26 @@ const Footer = () => {
                             </section>
 
                             <section className='space-y-[15px]'>
-                                <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Hubungi Kami</p>
+                                <p className='text-[20px] leading-[30px] tracking-[0.06em] font-semibold'>Hubungi Kami</p>
                                 <section className='space-y-[10px]'>
                                     <Link href={whatsappUrl} target="_blank" className='flexx space-x-[20px]'>
                                         <div className='relative w-[25px] h-[25px]'>
                                             <Image src={whatsappIcon} fill alt='whatsapp' className='w-full h-full'/>
                                         </div>
-                                        <p className='text-[20px] leading-[30px] font-medium tracking-[0.12em]'>0811 2021 444</p>
+                                        <p className='text-[20px] leading-[30px] font-medium tracking-[0.06em]'>0811 2021 444</p>
                                     </Link>
 
                                     <Link href={mailUrl} target="_blank" className='flexx space-x-[20px]'>
                                         <section className='relative w-[25px] h-[25px]'>
                                             <Image src={mailIcon} fill alt='mail' className='w-full h-full'/>
                                         </section>
-                                        <p className='text-[20px] leading-[30px] font-medium tracking-[0.12em]'>info@luarsekolah.com</p>
+                                        <p className='text-[20px] leading-[30px] font-medium tracking-[0.06em]'>info@luarsekolah.com</p>
                                     </Link>
                                 </section>
                             </section>
 
                             <section className='space-y-[15px]'>
-                                <p className='text-[20px] font-semibold leading-[30px] tracking-[0.12em]'>Unduh Aplikasi</p>
+                                <p className='text-[20px] font-semibold leading-[30px] tracking-[0.06em]'>Unduh Aplikasi</p>
                                 <section className='relative w-[187px] h-[72px]'>
                                     <Image src={googleplayIcon} fill alt='googleplay' className='w-full h-full'/>
                                 </section>
@@ -104,7 +104,7 @@ const Footer = () => {
                                 <section className='relative w-[18px] h-[25px]'>
                                     <Image src={mapIcon} fill alt="map" className='w-full h-ull'/>
                                 </section>
-                                <p className='flex-1 text-[18px] leading-[38px] tracking-[0.12em] text-[#888888]'>
+                                <p className='flex-1 text-[18px] leading-[38px] tracking-[0.06em] text-[#888888]'>
                                     Centenial Tower Level 29, Jl Jend Gatot Subroto No.27, Karet Semanggi, Setiabudi Daerah Khusus Ibukota Jakarta 12950
                                 </p>
                             </section>
@@ -112,30 +112,30 @@ const Footer = () => {
 
                         <section className='w-full flex justify-between'>
                             <section className='space-y-[10px]'>
-                                <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Informasi</p>
+                                <p className='text-[20px] leading-[30px] tracking-[0.06em] font-semibold'>Informasi</p>
                                 <section className='flex flex-col space-y-[5px]'>
-                                    <Link href="/tentang-kami" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Tentang Kami</Link>
-                                    <Link href="/aktivitas-kami" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Aktivitas Kami</Link>
-                                    <Link href="https://luarsekolah.com/article" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Blog</Link>
-                                    <Link href="https://luarsekolah.com/promo" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Promo</Link>
-                                    <Link href="https://luarsekolah.com/bantuan" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>FAQ</Link>
-                                    <Link href="https://luarsekolah.com/komunitas" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Komunitas</Link>
+                                    <Link href="/tentang-kami" className='text-[20px] leading-[30px] tracking-[0.06em] cursor-pointer hover:text-primary'>Tentang Kami</Link>
+                                    <Link href="/aktivitas-kami" className='text-[20px] leading-[30px] tracking-[0.06em] cursor-pointer hover:text-primary'>Aktivitas Kami</Link>
+                                    <Link href="https://luarsekolah.com/article" target='_blank' className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Blog</Link>
+                                    <Link href="https://luarsekolah.com/promo" target='_blank' className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Promo</Link>
+                                    <Link href="https://luarsekolah.com/bantuan" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>FAQ</Link>
+                                    <Link href="https://luarsekolah.com/komunitas" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Komunitas</Link>
                                 </section>
                             </section>
                             <section className='space-y-[10px]'>
-                                <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Program</p>
+                                <p className='text-[20px] leading-[30px] tracking-[0.06em] font-semibold'>Program</p>
                                 <section className='flex flex-col space-y-[5px]'>
-                                    <Link href="https://luarsekolah.com/prakerja" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Prakerja</Link>
-                                    <Link href="https://belajarbekerja.com" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Belajar Bekerja</Link>
-                                    <Link href="https://luarsekolah.com/indonesia-skills-week" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] cursor-pointer hover:text-primary'>Indonesia Skills Week</Link>
+                                    <Link href="https://luarsekolah.com/prakerja" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] cursor-pointer hover:text-primary'>Prakerja</Link>
+                                    <Link href="https://belajarbekerja.com" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] cursor-pointer hover:text-primary'>Belajar Bekerja</Link>
+                                    <Link href="https://luarsekolah.com/indonesia-skills-week" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] cursor-pointer hover:text-primary'>Indonesia Skills Week</Link>
                                 </section>
                             </section>
                             <section className='space-y-[10px]'>
-                                <p className='text-[20px] leading-[30px] tracking-[0.12em] font-semibold'>Lainnya</p>
+                                <p className='text-[20px] leading-[30px] tracking-[0.06em] font-semibold'>Lainnya</p>
                                 <section className='flex flex-col space-y-[5px]'>
-                                    <Link href="#" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Ajukan Penawaran</Link>
-                                    <Link href="https://luarsekolah.com/pages#terms-of-use" target="_blank" className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Syarat & Ketentuan</Link>
-                                    <Link href="https://luarsekolah.com/pages#privacy-policy" target='_blank' className='text-[20px] leading-[30px] tracking-[0.12em] hover:text-primary'>Kebijakan Privasi</Link>
+                                    <Link href="#" className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Ajukan Penawaran</Link>
+                                    <Link href="https://luarsekolah.com/pages#terms-of-use" target="_blank" className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Syarat & Ketentuan</Link>
+                                    <Link href="https://luarsekolah.com/pages#privacy-policy" target='_blank' className='text-[20px] leading-[30px] tracking-[0.06em] hover:text-primary'>Kebijakan Privasi</Link>
                                 </section>
                             </section>
                         </section>  
@@ -144,8 +144,8 @@ const Footer = () => {
             </section>
 
             <section className='flex-between'>
-                <p className='text-[20px] leading-[38px] tracking-[0.12em]'>PT Teknologi Edukasi Indonesia</p>
-                <p className='text-[20px] leading-[38px] tracking-[0.12em]'>Copyright &#169; 2022 &#xb7; All Right Reserved</p>
+                <p className='text-[20px] leading-[38px] tracking-[0.06em]'>PT Teknologi Edukasi Indonesia</p>
+                <p className='text-[20px] leading-[38px] tracking-[0.06em]'>Copyright &#169; 2022 &#xb7; All Right Reserved</p>
             </section>
         </footer>
     )

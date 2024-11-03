@@ -9,7 +9,7 @@ import igFollowers from '@/app/assets/icons/ig-followers.png'
 const StatisticInfo = () => {
     return (
         <section className='px-[100px] h-[647px] py-[75px] bg-primary mb-[100px] space-y-[110px]'>
-            <h2 className='text-white text-[42px] leading-[60px] font-bold text-center'>
+            <h2 className='text-white text-[40px] leading-[60px] font-bold text-center'>
                 Komunitas Kami Terus Bertumbuh
             </h2>
             <section className='flex-center space-x-[130px]'>

@@ -17,7 +17,7 @@ const CompanyPartner = () => {
 
     return (
         <section className='mb-[50px] space-y-[50px]'>
-            <h2 className='text-[42px] leading-[63px] font-bold tracking-[0.08em] text-center'>Mitra Perusahaan</h2>
+            <h2 className='text-[40px] leading-[63px] font-bold tracking-[0.06em] text-center'>Mitra Perusahaan</h2>
             <div className="relative overflow-hidden w-full">
                 <AnimatePresence>
                     <motion.div

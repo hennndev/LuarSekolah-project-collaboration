@@ -43,14 +43,14 @@ const OurActivities = () => {
 
     return (
         <section id="kegiatan-kami" className='px-[116px] py-[63px] mb-[50px] mt-[100px] space-y-[50px]'>
-            <h2 className='text-[40px] leading-[60px] tracking-[0.001em] text-primary text-center font-medium'>Kegiatan Luarsekolah</h2>
+            <h2 className='text-[40px] leading-[60px] tracking-[0.001em] text-primary text-center font-semibold'>Kegiatan Luarsekolah</h2>
             <section className='flex-between space-x-[50px]'>
                 <button className='cursor-pointer rounded-full' onClick={handleSlidePrevBtn}>
                     <IoIosArrowDropleftCircle className={clsx("text-primary w-[70px] h-[70px]", currentSlide === 0 ? "opacity-30 cursor-not-allowed" : "opacity-100")}/>
                 </button>
                 <section ref={scrollRef} className='w-[1368px] overflow-x-scroll scrollbar-hide flexx space-x-[50px]'>
                     {activitiesTitle.map((title, index) => (
-                        <p key={index} className={clsx("text-[18px] leading-[22px] font-semibold whitespace-nowrap p-[30px] hover:text-primary border-b-4 cursor-pointer", currentSlide === index ? "text-primary border-primary" : "text-[#565D6D] border-transparent hover:border-primary")} onClick={() => {
+                        <p key={index} className={clsx("text-[18px] leading-[22px] font-medium whitespace-nowrap p-[30px] hover:text-primary border-b-4 cursor-pointer", currentSlide === index ? "text-primary border-primary" : "text-[#565D6D] border-transparent hover:border-primary")} onClick={() => {
                             swiperRef.current.slideTo(index)
                             setCurrentSlide(index)
                             if(scrollRef.current && currentSlide <= 4) {
@@ -66,7 +66,7 @@ const OurActivities = () => {
                 </section>
                 <button className='cursor-pointer rounded-full'
                     onClick={handleSlideNextBtn}>
-                    <IoIosArrowDroprightCircle className={clsx("text-primary w-[70px] h-[70px]", currentSlide === activitiesTitle.length - 1 ? "opacity-30 cursor-not-allowed" : "opacity-100")}/>
+                    <IoIosArrowDroprightCircle className={clsx("text-primary w-[65px] h-[65px]", currentSlide === activitiesTitle.length - 1 ? "opacity-30 cursor-not-allowed" : "opacity-100")}/>
                 </button>
             </section>
             <Swiper
@@ -102,9 +102,9 @@ const OurActivities = () => {
                         }}>
                         <SwiperImages images={obj.images}/>
                         <section className='w-[480px] space-y-[20px]'>
-                            <h3 className='text-[32px] leading-[48px] font-medium tracking-[0.12em]'>{obj.title}</h3>
-                            <p className='text-[20px] leading-[38px] font-medium tracking-[0.12em]'>{obj.date}</p>
-                            <p className='text-[20px] leading-[38px] font-medium tracking-[0.12em] text-justify'>{obj.content}</p>
+                            <h3 className='text-[32px] leading-[48px] font-medium tracking-[0.06em]'>{obj.title}</h3>
+                            <p className='text-[20px] leading-[38px] font-medium tracking-[0.06em]'>{obj.date}</p>
+                            <p className='text-[18px] leading-[38px] tracking-[0.06em] text-justify'>{obj.content}</p>
                         </section>
                     </SwiperSlide>
                 ))}

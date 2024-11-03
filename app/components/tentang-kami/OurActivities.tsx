@@ -12,7 +12,7 @@ import webinarprakerjaImage from '@/app/assets/images/webinarprakerja.png'
 const OurActivities = () => {
     return (
         <section className='px-[100px] py-[22px] mb-[100px] space-y-[50px]'>
-            <h2 className='text-primary text-[42px] leading-[63px] tracking-[0.08em] font-bold text-center'>
+            <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.06em] font-bold text-center'>
                 Kegiatan LuarSekolah
             </h2>
             <section className='flex space-x-[22px]'>
@@ -35,7 +35,7 @@ const OurActivities = () => {
                 </section>
             </section>
             <section className="flex-center">
-                <Link href="/aktivitas-kami/#kegiatan-kami" className="w-[300px] h-[60px] text-center bg-primary text-white rounded-[12px] p-[10px] text-[22px] leading-[38px]">Lihat Selengkapnya</Link>
+                <Link href="/aktivitas-kami/#kegiatan-kami" className="w-[300px] h-[60px] text-center bg-[#1BC89D] hover:bg-opacity-75 text-white rounded-[12px] p-[10px] text-[22px] leading-[38px]">Lihat Selengkapnya</Link>
             </section>
         </section>
     )

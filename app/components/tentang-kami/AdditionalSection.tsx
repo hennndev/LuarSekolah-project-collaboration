@@ -12,14 +12,14 @@ const AdditionalSection = () => {
                 </section>
                 <section className='w-[620px] space-y-[30px]'>
                     <section className="space-y-[16px]">
-                        <h2 className='text-[42px] leading-[63px] tracking-[0.08em] font-semibold text-white'>
+                        <h2 className='text-[40px] leading-[63px] tracking-[0.06em] font-semibold text-white'>
                             Kenal Kami Lebih Dekat
                         </h2>
-                        <p className='text-[24px] leading-[38px] tracking-[0.06em] text-white'>
+                        <p className='text-[22px] leading-[38px] tracking-[0.06em] text-white'>
                             Kami terbuka untuk kerjasama! Jika Anda memiliki ide atau tawaran, silakan hubungi kami. Bersama, kita bisa menciptakan peluang pendidikan yang lebih baik untuk semua.
                         </p>
                     </section>
-                    <button className='w-[300px] border border-primary rounded-[12px] text-primary p-[10px] bg-white text-[22px] leading-[38px]'>
+                    <button className='w-[300px] border border-primary rounded-[12px] text-primary p-[10px] bg-white text-[22px] leading-[38px] hover:border-2 hover:border-white hover:bg-transparent hover:text-white'>
                         Ajukan Penawaran
                     </button>
                 </section>
