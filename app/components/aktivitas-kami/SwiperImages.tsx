@@ -47,8 +47,12 @@ const SwiperImages = ({images}: PropsTypes) => {
                     <div className='relative w-full h-full'>
                         <Image src={img} fill alt="activity-image" className='w-full h-full'/> 
                         <section className='absolute w-full h-full top-0 left-0 bottom-0 z-50 space-x-[10px] flex justify-center items-end pb-10'>
-                            <IoIosArrowDropleftCircle className='absolute top-[40%] left-5 transform translate-y-[50%] text-primary w-[60px] h-[60px] cursor-pointer opacity-50 hover:opacity-100' onClick={() => swiperImageRef.current.slidePrev()}/>
-                            <IoIosArrowDroprightCircle className='absolute top-[40%] right-5 transform translate-y-[50%] text-primary w-[60px] h-[60px] cursor-pointer opacity-50 hover:opacity-100' onClick={() => swiperImageRef.current.slideNext()}/>
+                            {images.length > 1 && (
+                                <>
+                                    <IoIosArrowDropleftCircle className='absolute top-[40%] left-5 transform translate-y-[50%] text-primary w-[60px] h-[60px] cursor-pointer opacity-50 hover:opacity-100' onClick={() => swiperImageRef.current.slidePrev()}/>
+                                    <IoIosArrowDroprightCircle className='absolute top-[40%] right-5 transform translate-y-[50%] text-primary w-[60px] h-[60px] cursor-pointer opacity-50 hover:opacity-100' onClick={() => swiperImageRef.current.slideNext()}/>
+                                </>
+                            )}
                             {images.length > 1 && images.map((_, index) => (
                                 <GoDotFill 
                                     key={index}
