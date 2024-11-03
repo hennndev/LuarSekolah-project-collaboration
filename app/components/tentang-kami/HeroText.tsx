@@ -28,7 +28,7 @@ const HeroText = () => {
                 <p className='text-[22px] leading-[38px] tracking-[0.04em] text-justify'>
                     Sejak tahun 2019, Luarsekolah hadir untuk menyediakan kursus online yang membantu dalam membekali kebutuhan ilmu dan skill industri. Kami berupaya keras dalam mengembangkan kursus yang relevan dengan kebutuhan pekerja Indonesia yang dapat diakses di mana saja. Materi kami disusun oleh para ahli, agar para pekerja mampu bersaing di pasar kerja yang makin kompetitif di masa depan. <br /> <br />
                     Beragam kelas telah Luarsekolah hadirkan, sebagai bukti untuk menjawab kebutuhan Industri, seperti:
-                    Penggunaan Chat GPT, penggunaan canva, dasar manajemen pemasaran, belajar berpikir kritis, pelatihan kepemimpinan untuk manajer, pengembangan bisnis budi daya buah, merancang ilustrasi, dasar digital marketing, menganalisa perilaku konsumen, memasarkan produk untuk spesialis pemasaran, dan masih banyak lagi kelas-kelas yang akan muncul setiap tahunnya.
+                    Penggunaan Chat GPT, penggunaan canva, dasar manajemen pemasaran, belajar berpikir kritis, pelatihan kepemimpinan untuk manajer, pengembangan bisnis budi daya buah, merancang ilustrasi, dasar <Link href='https://luarsekolah.com/kelas/online/belajar-menerapkan-digital-marketing-untuk-manajer-pemasaran' target='_blank'>digital marketing</Link>, menganalisa perilaku konsumen, memasarkan produk untuk spesialis pemasaran, dan masih banyak lagi kelas-kelas yang akan muncul setiap tahunnya.
                 </p>
             </section>
         </section>
