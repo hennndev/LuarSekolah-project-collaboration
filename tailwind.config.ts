@@ -23,7 +23,6 @@ const config: Config = {
     },
   },
   plugins: [
-    require("tailwindcss-textshadow"),
     require("tailwind-scrollbar-hide")
   ],
 };

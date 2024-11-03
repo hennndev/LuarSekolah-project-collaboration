@@ -20,7 +20,7 @@ const Header = () => {
                         <Image src="/images/logo.png" fill alt="logo" className='w-full h-full'/>
                     </Link>
                     <section className='group flexx space-x-[9px] cursor-pointer relative' onClick={handleDropdown}>
-                        <p className='text-[20px] leading-[30px] tracking-[0.08em] text-shadow-lg group-hover:text-primary'>Program</p>
+                        <p className='text-[20px] leading-[30px] tracking-[0.08em] group-hover:text-primary'>Program</p>
                         {isDropdown ? <FaSortUp className='text-xl group-hover:text-primary mt-2'/> : <FaSortDown className='text-xl group-hover:text-primary mb-1'/>}
                         {isDropdown && (
                             <section className='absolute top-16 -left-2 shadow-dropdown w-[326px] px-[32px] py-[30px] rounded-b-lg bg-white flex flex-col space-y-[25px]'>
