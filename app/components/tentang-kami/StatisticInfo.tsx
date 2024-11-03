@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import users from '@/app/assets/icons/users.png'
-import allClass from '@/app/assets/icons/class.png'
-import trainers from '@/app/assets/icons/trainers.png'
-import igFollowers from '@/app/assets/icons/ig-followers.png'
+import users from '@/app/assets/icons/users.svg'
+import allClass from '@/app/assets/icons/class.svg'
+import trainers from '@/app/assets/icons/trainer.svg'
+import igFollowers from '@/app/assets/icons/ig-followers.svg'
 
 const StatisticInfo = () => {
     return (
