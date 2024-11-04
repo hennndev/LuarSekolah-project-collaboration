@@ -12,8 +12,8 @@ const Program = () => {
             <h2 className='text-primary text-[40px] leading-[63px] tracking-[0.04em] font-bold text-center'>
                 Pilihan Program Yang Bisa Kamu Ikuti!
             </h2>
-            <section className='flex justify-center space-x-[50px]'>
-                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
+            <section className='flex justify-center space-x-[30px]'>
+                <section className='flex flex-col justify-between w-[550px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[300px] h-[80px]'>
@@ -38,7 +38,7 @@ const Program = () => {
                         </Link>
                     </section>
                 </section>
-                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
+                <section className='flex flex-col justify-between w-[550px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[265px] h-[90px]'>
@@ -63,7 +63,7 @@ const Program = () => {
                         </Link>
                     </section>
                 </section>
-                <section className='flex flex-col justify-between w-[573px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
+                <section className='flex flex-col justify-between w-[550px] p-[30px] rounded-[24px] shadow-card space-y-[68px]'>
                     <section className='flex-1 space-y-[30px]'>
                         <section className="flex-center">
                             <section className='relative w-[168px] h-[91px]'>
